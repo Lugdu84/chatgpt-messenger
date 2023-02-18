@@ -3,9 +3,9 @@ import { HiOutlineBolt } from 'react-icons/hi2'
 
 export default function Home() {
   return (
-    <div className="text-white flex flex-col items-center justify-center h-screen px-2">
+    <div className="text-white flex flex-col items-center justify-center min-h-screen px-2">
       <h1 className="text-5xl font-bold mb-20">ChatGPT</h1>
-      <div className="flex space-x-2 text-center">
+      <div className=" grid grid-cols-1 space-x-2 md:grid-cols-3 text-center">
         <div className="">
           <div className="flex flex-col items-center justify-center mb-5">
             {/* Sun Icon */}
